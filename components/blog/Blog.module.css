@@ -1,0 +1,11 @@
+.blogList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    column-gap: 3em;
+    row-gap: 2em;
+   list-style: none;
+}
+.blogList li{
+    background-color: aliceblue;
+    padding: 2em;
+}
